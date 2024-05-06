@@ -2,10 +2,10 @@ import os
 from git import Repo
 import datetime as dt
 tgl = dt.datetime.now().strftime("%y%m%d_%H%M%S")
-os.chdir('../downloadadmin')
+os.chdir('../training')
 #import shutil
 #shutil.make_archive('HEINZO', 'zip', '/content/images')
-full_local_path = "/content/downloadadmin"
+full_local_path = "/content/training"
 
 #backupname = "/content/training/HEINZO.zip"
 #backup = ('/content/training/H' + str(tgl) + '.zip')
